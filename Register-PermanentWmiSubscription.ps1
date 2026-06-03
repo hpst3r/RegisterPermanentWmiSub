@@ -38,7 +38,7 @@ $ConsumerParams = @{
     'Class' = 'CommandLineEventConsumer'
     'Arguments' = @{
         'Name' = $ConsumerName
-        'CommandLineTemplate' = "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy $ConsumerExecutionPolicy -File '$ConsumerScriptPath'"
+        'CommandLineTemplate' = "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy $ConsumerExecutionPolicy -File `"$ConsumerScriptPath`""
     }
 }
 
